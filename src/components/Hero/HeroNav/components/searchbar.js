@@ -9,14 +9,13 @@ const SearchBar = () => {
 		setValue(e.target.value);
 	};
 	return (
-		<div className="container mx-auto">
-		<div className="flex bg-white rounded-xl my-4 justify-between p-4  max-lg:space-x-2">
+		<div className="flex bg-white rounded-xl my-4 max-lg:mt-0  max-lg:pt-0  justify-between p-4  max-lg:space-x-1">
 			<input
-				className="bg-[#f9f9f9] rounded-xl px-6 max-lg:w-[180px] py-2 placeholder-black"
+				className="bg-[#f9f9f9] rounded-xl px-6 max-lg:w-[160px] py-2 placeholder-black"
 				placeholder="&#x1F50E;&#xFE0E;	Job title or keyword"
 			/>
 			
-				<div className="bg-[#f9f9f9] rounded-xl px-8 max-lg:px-6  py-2 flex items-center ">
+				<div className="bg-[#f9f9f9] rounded-xl px-8 max-lg:px-2 py-2 flex items-center ">
 						<FontAwesomeIcon
 						icon={faMapMarkerAlt}
 						className={`w-[20px] h-[20px] ${!value?"":"invisible"}`}
@@ -34,10 +33,9 @@ const SearchBar = () => {
 				</div>
 			
 			
-			<button className="rounded-xl  bg-[#00cc99] px-8 max-lg:px-4  text-white">
+			<button className="rounded-xl  bg-[#00cc99] px-4 max-lg:px-4  text-white">
 				Search
 			</button>
-		</div>
 		</div>
 	);
 };

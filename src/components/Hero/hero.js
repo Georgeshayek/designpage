@@ -4,12 +4,16 @@ import HeroSign from "./HeroSign/herosign"
 const Hero=()=>{
    return(
 
-   <div className="flex max-lg:flex-col bg-[#f1f1f1] max-lg:bg-white min-h-[500px]">
+    <div className="bg-[#f1f1f1]">
+
+    <div className="flex max-lg:flex-col  max-lg:bg-white">
+
 
         <HeroNav/>
         <HeroSign/>
         
     </div>
+</div>
     )
 }
 
