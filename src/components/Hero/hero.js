@@ -3,11 +3,14 @@ import HeroSign from "./HeroSign/herosign"
 
 const Hero=()=>{
    return(
-   <div className="flex max-lg:flex-col bg-[#f1f1f1] max-lg:bg-white">
+
+   <div className="flex max-lg:flex-col bg-[#f1f1f1] max-lg:bg-white min-h-[500px]">
+
         <HeroNav/>
         <HeroSign/>
         
-    </div>)
+    </div>
+    )
 }
 
 export default Hero

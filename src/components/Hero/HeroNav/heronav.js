@@ -5,7 +5,7 @@ const { default: Navbar } = require("./components/navbar")
 
 const HeroNav=()=>{
     return(
-        <div className=" flex-col basis-[60%]">
+        <div className="  basis-[60%] px-[60px]  max-lg:px-0">
             <Navbar/>
             <Texts/>
             <SearchBar/>
