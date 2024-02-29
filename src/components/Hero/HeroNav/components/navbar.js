@@ -15,14 +15,14 @@ const Navbar=()=>{
         <div className="container mx-auto">
         <div className="flex justify-between items-center relative max-lg:justify-end">
             <div >
-                <Link href="/"><Image src="/logo.png" alt=" Logo" className="max-lg:mr-[50px]" width={100} height={50}/></Link>
+                <Link href="/"><Image src="/logo.png" alt=" Logo" width={100} height={50}/></Link>
             </div>
             <button id="burger-btn" className="  block text-white p-1 bg-[#00cc99] lg:hidden ml-[120px]" onClick={toggleShow}>&#9776;</button>
             <ul className={`flex justify-center  max-lg:flex-col ${!show ? 'max-lg:hidden' : 'max-lg:block'} max-lg:absolute max-lg:top-[60px] max-lg:left-0 max-lg:bg-[#f1f1f1] max-lg:p-1 max-lg:w-[100%]  max-lg:z-50`}>                
-            <li className="max-lg:text-center  lg:inline-block lg:mr-[10px]"><Link className={`py-10 px-[10px]  hover:text-[#555] text-[16px] font-semibold ${path==="/"?"text-green-500 font-semibold":""}`} href="/">Home</Link></li>
-            <li className=" max-lg:text-center lg:inline-block lg:mr-[10px]"><Link className={`py-5 px-[10px]  hover:text-[#555] text-[16px] font-semibold  ${path==="/about"?"text-green-500 font-semibold":""}`} href="/about">About</Link></li>
-            <li className="max-lg:text-center lg:inline-block lg:mr-[10px]"><Link className={`py-5 px-[10px]  hover:text-[#555] text-[16px] font-semibold ${path==="/contact"?"text-green-500 font-semibold":""}`} href="/contact">Contact</Link></li>
-            <li className="max-lg:text-center lg:inline-block lg:mr-[10px]"><Link className={`py-5 px-[10px]  hover:text-[#555] text-[16px] font-semibold ${path==="/contact"?"text-green-500 font-semibold":""}`} href="/contact">Contact</Link></li>
+            <li className="max-lg:text-center  lg:inline-block lg:mr-[10px]"><Link className={`py-10 px-[10px]  hover:text-[#555] text-[16px] font-semibold ${path==="/"?"text-[#00cc99] font-semibold":""}`} href="/">Home</Link></li>
+            <li className=" max-lg:text-center lg:inline-block lg:mr-[10px]"><Link className={`py-5 px-[10px]  hover:text-[#555] text-[16px] font-semibold  ${path==="/about"?"text-[#00cc99] font-semibold":""}`} href="/about">About</Link></li>
+            <li className="max-lg:text-center lg:inline-block lg:mr-[10px]"><Link className={`py-5 px-[10px]  hover:text-[#555] text-[16px] font-semibold ${path==="/contact"?"text-[#00cc99] font-semibold":""}`} href="/contact">Contact</Link></li>
+            <li className="max-lg:text-center lg:inline-block lg:mr-[10px]"><Link className={`py-5 px-[10px]  hover:text-[#555] text-[16px] font-semibold ${path==="/contact"?"text-[#00cc99] font-semibold":""}`} href="/contact">Contact</Link></li>
 
         </ul>
         

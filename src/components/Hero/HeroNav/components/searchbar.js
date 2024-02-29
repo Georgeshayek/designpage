@@ -15,7 +15,7 @@ const SearchBar = () => {
 				placeholder="&#x1F50E;&#xFE0E;	Job title or keyword"
 			/>
 			
-				<div className="bg-[#f9f9f9] rounded-xl px-8 max-lg:px-2 py-2 flex items-center ">
+				<div className="bg-[#f9f9f9] rounded-xl px-14 max-lg:px-2 py-2 flex items-center ">
 						<FontAwesomeIcon
 						icon={faMapMarkerAlt}
 						className={`w-[20px] h-[20px] ${!value?"":"invisible"}`}
