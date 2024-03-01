@@ -2,7 +2,7 @@ import SwiperCont from "./components/swipercont";
 
 const Popular = () => {
 	return (
-		<div class="bg-[#00cc99] bg-opacity-[0.251]">
+		<div class="bg-[#00cc99] bg-opacity-[0.051]">
 			<div className="container mx-auto">
 				<div className="py-10 px-[68px]  max-lg:px-4">
                 <h1 className="font-bold text-[30px] max-lg:text-[18px] py-4 text-center ">Popular Job Categories</h1>
