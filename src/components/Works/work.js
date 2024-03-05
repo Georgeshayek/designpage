@@ -19,7 +19,7 @@ const Work=()=>{
     </div>
         <Items/>
         <div className="flex justify-center py-4">
-        <button className="py-3 px-12   lg:my-[20px] border border-[#00cc99] text-[#00cc99] bg-transparent rounded  lg:hidden">Learn More</button>
+        <button className="py-3 px-12  max-lg:py-2 max-lg:px-8   lg:my-[20px] border border-[#00cc99] text-[#00cc99] bg-transparent rounded  lg:hidden">Learn More</button>
         </div>
         <div className="flex max-lg:flex-col">
             <Image src="/greyback.jpeg" width={1000} height={500} alt="grey image" className="rounded-xl"/>

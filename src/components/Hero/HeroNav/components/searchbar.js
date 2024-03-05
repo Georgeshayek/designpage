@@ -20,8 +20,8 @@ const SearchBar = () => {
 						icon={faMapMarkerAlt}
 						className={`w-[20px] h-[20px] ${!value?"":"invisible"}`}
 					/>
-					<select onChange={onChangeHandler} className=" bg-[#f9f9f9]  ">
-						<option disabled hidden selected value="">
+					<select onChange={onChangeHandler} defaultValue="" className=" bg-[#f9f9f9]  ">
+						<option disabled hidden  value="">
 							
 							location
 						</option>

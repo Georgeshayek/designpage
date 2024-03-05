@@ -30,7 +30,7 @@ const SwiperCont=()=>{
       onSwiper={(swiper) => console.log(swiper)}
     >
         
-        {images.map(mov=> <SwiperSlide><SwiperItem imageurl={mov.imageurl} title={mov.title} vacancy={mov.vacancy}/></SwiperSlide>)}
+        {images.map((mov,i)=> <SwiperSlide key={i}><SwiperItem  imageurl={mov.imageurl} title={mov.title} vacancy={mov.vacancy}/></SwiperSlide>)}
       
     </Swiper>
     )
