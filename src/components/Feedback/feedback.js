@@ -88,7 +88,7 @@ const Feedback = () => {
 							</div>
 						</div>
 					</div>
-					<div className=" col-span-1 lg:col-start-2  flex lg:justify-start  max-lg:justify-center items-center lg:px-4">
+					<div className=" col-span-1 lg:col-start-2  flex lg:justify-end  max-lg:justify-center items-center lg:px-4">
 						<Image
 							src={arr[indx].img}
 							width={500}
