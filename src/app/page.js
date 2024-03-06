@@ -12,7 +12,10 @@ export default function Home() {
         <Work/>
         <Popular/>
       	<div className="bg-[#fbfbfb]">
+        <div className="container mx-auto py-12 px-[68px]">
+
         <Recently/>
+        </div>
         </div>
     </>
   );
