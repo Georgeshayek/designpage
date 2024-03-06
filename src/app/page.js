@@ -4,7 +4,7 @@ import Popular from "@/components/Popular/popular";
 import Recently from "@/components/Recently/recently";
 import Work from "@/components/Works/work";
 import Image from "next/image";
-
+import Footer from "@/components/Footer/footer";
 export default function Home() {
   return (
     <>
@@ -12,12 +12,14 @@ export default function Home() {
         <Work/>
         <Popular/>
       	<div className="bg-[#fbfbfb]">
-        <div className="container mx-auto py-12 px-[68px]">
+        <div className="container mx-auto py-12 pb-[100px] px-[68px]">
 
         <Recently/>
         <Feedback/>
         </div>
         </div>
+        <Footer/>
+
     </>
   );
 }
