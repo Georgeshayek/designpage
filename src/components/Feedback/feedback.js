@@ -42,14 +42,12 @@ const Feedback = () => {
 	//const [indx, setIndx] = useState(0);
 	
     const onIndxChangeNext = () => {
-        setTimeout(() => {
+        
             setIndx(prev=>prev+1);
-        }, 1500);
+        
       };
       const onIndxChangePrev = () => {
-        setTimeout(() => {
             setIndx(prev=>prev-1);
-        }, 2000);
       };
 	return (
 		<>
@@ -75,14 +73,14 @@ const Feedback = () => {
 							<div className="flex items-center justify-items-start py-2">
 								<button
 									disabled={indx === 0}
-									onClick={onIndxChangePrev}
+									onClick={()=>onIndxChangePrev()}
 									className="bg-[#00cc99] rounded-full p-1 disabled:bg-[#d2d2d2] "
 								>
 									<FaArrowLeft className="text-white w-[35px] h-[35px] " />
 								</button>
 								<button
 									disabled={indx === arr.length - 1}
-									onClick={onIndxChangeNext}
+									onClick={()=>onIndxChangeNext()}
 									className="bg-[#00cc99] ml-2 rounded-full p-1 disabled:bg-[#d2d2d2]"
 								>
 									<FaArrowRight className="text-white w-[35px] h-[35px]" />
