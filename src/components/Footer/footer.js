@@ -12,12 +12,12 @@ const Footer=()=>{
         <div className="bg-[#00cc99] relative">
             
             <div className="   flex items-center justify-center  ">
-            <div className=" absolute  bg-[#003a2c] container  mx-[100px] max-lg:p-2 p-6 rounded-xl ">
-                
+            <div className=" absolute  bg-[#003a2c]   mx-[100px] max-lg:mx-[30px] max-lg:p-2 p-6 rounded-xl ">
+                <div className="container mx-auto">
                 <h1 className='font-bold text-white text-center py-2 '> Register Your CV now! </h1>
                 <p className="text-[#aaaaaa] text-center py-2 lg:mx-4 max-lg:text-[10px]">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adi Lorem ipsum dolor sit amet, consectetur adi consectetur adipiscing elit.Nuac  amet, consectetur adipiscing elit.Nuac eros placerat velit faucibus </p>
                <div className="flex justify-center"> <button className="bg-transparent border border-white p-2 rounded-xl text-white">Register</button></div>
-          </div></div>
+          </div></div></div>
           
                     <div className="container mx-auto py-24 px-[68px] ">
                         <div className="grid grid-cols-5 max-lg:grid-cols-2 ">
