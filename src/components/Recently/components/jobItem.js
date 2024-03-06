@@ -13,8 +13,8 @@ const JobItem=(props)=>{
         <h3 className='font-semibold text-[#8a8a8a] text-[14px] max-lg:text-[10px] max-lg:ml-1  pb-2' >{props.company}</h3>
         <p className="  text-[#8a8a8a] text-[10px] max-lg:text-[7px] pb-2 max-lg:ml-1">{props.paragraph} </p>
         <div className='flex py-2'>
-            <ObjectCont><FaMapMarkerAlt className="  w-4 h-4 max-lg:w-2 max-lg:h-2"  />{ props.location}</ObjectCont>
-            <ObjectCont><TbBriefcase2 className=" w-4 h-4 max-lg:w-2 max-lg:h-2"/>{props.type}</ObjectCont>
+            <ObjectCont><FaMapMarkerAlt className="  w-4 h-4 max-lg:w-2 max-lg:h-2 mr-1 "  />{ props.location}</ObjectCont>
+            <ObjectCont><TbBriefcase2 className=" w-4 h-4 max-lg:w-2 max-lg:h-2 mr-1 "/>{props.type}</ObjectCont>
        </div>
        <button className="p-4 max-lg:p-1 max-lg:text-[12px] text-[#00cc99] bg-transparent flex items-center"> Apply Now <MdKeyboardArrowRight className=" w-4 h-4" /> </button>
     </div>
