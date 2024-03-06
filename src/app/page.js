@@ -8,6 +8,7 @@ import Footer from "@/components/Footer/footer";
 export default function Home() {
   return (
     <>
+    
         <Hero/>
         <Work/>
         <Popular/>
@@ -19,7 +20,9 @@ export default function Home() {
         </div>
         </div>
         <Footer/>
+          
 
+       
     </>
   );
 }

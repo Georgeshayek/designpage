@@ -9,8 +9,16 @@ import Image from "next/image";
 const Footer=()=>{
 
     return(
-        <div className="bg-[#00cc99]">
-                    <div className="container mx-auto py-16 px-[68px] ">
+        <div className="bg-[#00cc99] relative">
+            
+            <div className="   flex items-center justify-center   ">
+            <div className=" absolute    bg-[#003a2c]  lg:w-[83%] max-lg:w-[90%] max-lg:p-2 p-6 rounded-xl ">
+                <h1 className='font-bold text-white text-center py-2 '> Register Your CV now! </h1>
+                <p className="text-[#aaaaaa] text-center py-2 max-lg:text-[10px] ">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adi Lorem ipsum dolor sit amet, consectetur adi consectetur adipiscing elit.Nuac  amet, consectetur adipiscing elit.Nuac eros placerat velit faucibus </p>
+               <div className="flex justify-center"> <button className="bg-transparent border border-white p-2 rounded-xl text-white">Register</button></div>
+          </div></div>
+          
+                    <div className="container mx-auto py-24 px-[68px] ">
                         <div className="grid grid-cols-5 max-lg:grid-cols-2 ">
                             <div className="col-span-2 flex flex-col   max-lg:justify-start lg:justify-center ">
                             <Link href="/"><Image src="/logo.png" alt=" Logo" width={100} height={50}/></Link>
