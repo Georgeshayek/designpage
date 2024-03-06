@@ -15,6 +15,7 @@ export default function Home() {
         <div className="container mx-auto py-12 px-[68px]">
 
         <Recently/>
+        <Feedback/>
         </div>
         </div>
     </>
