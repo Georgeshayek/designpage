@@ -16,7 +16,7 @@ const Footer=()=>{
                 <div className="container mx-auto">
                 <h1 className='font-bold text-white text-center py-2 '> Register Your CV now! </h1>
                 <p className="text-[#aaaaaa] text-center py-2 lg:mx-4 max-lg:text-[10px]">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adi Lorem ipsum dolor sit amet, consectetur adi consectetur adipiscing elit.Nuac  amet, consectetur adipiscing elit.Nuac eros placerat velit faucibus </p>
-               <div className="flex justify-center"> <button className="bg-transparent border hover:bg-white hover:text-[#003a2c] hover:border-[#003a2c] border-white p-2 rounded-xl text-white">Register</button></div>
+               <div className="flex justify-center"> <button className="bg-transparent ease-in duration-300 border hover:bg-white hover:text-[#003a2c] hover:border-[#003a2c] border-white p-2 rounded-xl text-white">Register</button></div>
           </div></div></div>
           
                     <div className="container mx-auto py-10 pt-36 px-[68px] max-lg:px-4 ">
@@ -47,23 +47,23 @@ const Footer=()=>{
                                 <div className="flex items-center justify-start ">
                                     <div className="pr-2">
                                         <Link href="/">
-                                    <IoLogoGoogle className="w-7 h-7"/></Link>
+                                    <IoLogoGoogle className=" ease-in duration-300 hover:w-8 w-7 h-7"/></Link>
                                     </div>
                                     <div className="px-2">
                                     <Link href="/">
-                                    <FaFacebook className="w-7 h-7"/>
+                                    <FaFacebook className=" ease-in duration-300 hover:w-8 w-7 h-7"/>
                                     </Link>
                                         </div>
                                     <div className="px-2">
                                     <Link href="/">
-                                    <FaSquareTwitter className="w-7 h-7"/>
+                                    <FaSquareTwitter className=" ease-in duration-300 hover:w-8 w-7 h-7"/>
                                     </Link>
                                     </div>
 
                                     <div className="px-2">
 
                                     <Link href="/">
-                                    <FaLinkedin className="w-7 h-7"/>
+                                    <FaLinkedin className=" ease-in duration-300 hover:w-8 w-7 h-7"/>
                                     </Link>
                                     </div>
                                 </div>

@@ -14,7 +14,7 @@ const Recently = () => {
 					/>
 					<SwiperRecently />
                     <div className="flex justify-center py-6">
-        <button className="py-3 px-12 max-lg:py-2 max-lg:px-8 hover:bg-[#00cc99] hover:text-white  border border-[#00cc99] text-[#00cc99] bg-transparent rounded">View More</button>
+        <button className="py-3 px-12 max-lg:py-2 max-lg:px-8 ease-in duration-300 hover:bg-[#00cc99] hover:text-white  border border-[#00cc99] text-[#00cc99] bg-transparent rounded">View More</button>
         </div>
 		</div>
 		</>	

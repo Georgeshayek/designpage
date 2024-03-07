@@ -20,7 +20,7 @@ const SearchBar = () => {
 						icon={faMapMarkerAlt}
 						className={`w-[20px] h-[20px] pr-4 max-lg:pr-2 ${!value?"":"invisible"}`}
 					/>
-					<select onChange={onChangeHandler} defaultValue="" className="  bg-[#f9f9f9]  ">
+					<select onChange={onChangeHandler} defaultValue="" className=" focus:outline-none  bg-[#f9f9f9]  ">
 						<option disabled hidden  value="">
 							
 							location
@@ -33,7 +33,7 @@ const SearchBar = () => {
 				</div>
 			
 			
-			<button className="rounded-xl  bg-[#00cc99] px-4 max-lg:px-2  text-white  hover:text-[#00cc99] hover:bg-transparent hover:border hover:border-[#00cc99]">
+			<button className="rounded-xl ease-in duration-300 bg-[#00cc99] px-4 max-lg:px-2  text-white  hover:text-[#00cc99] hover:bg-transparent hover:border hover:border-[#00cc99]">
 				Search
 			</button>
 		</div>
