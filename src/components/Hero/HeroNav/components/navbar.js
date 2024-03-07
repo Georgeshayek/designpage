@@ -12,7 +12,7 @@ const Navbar=()=>{
 
     return(
         <nav className=" max-lg:bg-[#f1f1f1]" >
-        <div className="flex max-lg:justify-end lg:justify-between items-center relative max-lg:px-2 ">
+        <div className="flex max-lg:justify-end lg:justify-between items-center relative max-lg:px-2 lg:py-4 ">
             <div className="max-lg:mx-auto" >
                 <Link href="/" ><Image src="/logo.png"  alt=" Logo" width={100} height={50}/></Link>
             </div>
