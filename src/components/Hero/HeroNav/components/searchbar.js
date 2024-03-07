@@ -9,16 +9,16 @@ const SearchBar = () => {
 		setValue(e.target.value);
 	};
 	return (
-		<div className="flex bg-white rounded-xl my-4 max-lg:mt-0  max-lg:pt-0  justify-between lg:p-4  max-lg:space-x-1">
+		<div className="flex bg-white rounded-xl my-4 max-lg:mt-0  max-lg:pt-0   justify-between lg:p-4 max-lg:space-x-2 ">
 			<input
 				className="bg-[#f9f9f9] rounded-xl focus:outline-none px-6 max-lg:w-[160px] py-2 placeholder-black"
 				placeholder="&#x1F50E;&#xFE0E;	Job title or keyword"
 			/>
 			
-				<div className="bg-[#f9f9f9] rounded-xl px-14 max-lg:px-2 py-2 flex items-center ">
+				<div className="bg-[#f9f9f9] rounded-xl px-14 max-lg:px-0 py-2 flex items-center ">
 						<FontAwesomeIcon
 						icon={faMapMarkerAlt}
-						className={`w-[20px] h-[20px] pr-4 ${!value?"":"invisible"}`}
+						className={`w-[20px] h-[20px] pr-4 max-lg:pr-2 ${!value?"":"invisible"}`}
 					/>
 					<select onChange={onChangeHandler} defaultValue="" className="  bg-[#f9f9f9]  ">
 						<option disabled hidden  value="">
@@ -33,7 +33,7 @@ const SearchBar = () => {
 				</div>
 			
 			
-			<button className="rounded-xl  bg-[#00cc99] px-4 max-lg:px-4  text-white">
+			<button className="rounded-xl  bg-[#00cc99] px-4 max-lg:px-2  text-white">
 				Search
 			</button>
 		</div>

@@ -19,7 +19,7 @@ const Footer=()=>{
                <div className="flex justify-center"> <button className="bg-transparent border border-white p-2 rounded-xl text-white">Register</button></div>
           </div></div></div>
           
-                    <div className="container mx-auto py-32 px-[68px] max-lg:px-4 ">
+                    <div className="container mx-auto py-10 pt-36 px-[68px] max-lg:px-4 ">
                         <div className="grid grid-cols-5 max-lg:grid-cols-2 ">
                             <div className="col-span-2 flex flex-col   max-lg:justify-start lg:justify-center ">
                             <Link href="/"><Image src="/logo.png" alt=" Logo" width={100} height={50}/></Link>

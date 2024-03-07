@@ -12,8 +12,8 @@ const Navbar=()=>{
 
     return(
         <nav className=" max-lg:bg-[#f1f1f1]" >
-        <div className="flex max-lg:justify-end items-center relative max-lg:px-2 ">
-            <div className="mx-auto" >
+        <div className="flex max-lg:justify-end lg:justify-between items-center relative max-lg:px-2 ">
+            <div className="max-lg:mx-auto" >
                 <Link href="/" ><Image src="/logo.png"  alt=" Logo" width={100} height={50}/></Link>
             </div>
             <button id="burger-btn" className="  block text-white p-1 bg-[#00cc99] lg:hidden " onClick={toggleShow}>&#9776;</button>

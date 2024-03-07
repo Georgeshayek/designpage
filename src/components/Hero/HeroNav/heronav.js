@@ -8,7 +8,7 @@ const HeroNav=()=>{
         <div className="  basis-[60%] px-[60px] max-lg:px-0 ">
             <Navbar/>
           
-            <div className="pb-[80px] max-lg:px-4">
+            <div className="pb-[80px] max-lg:px-2">
             <Texts/>
             <SearchBar/>
         </div>
