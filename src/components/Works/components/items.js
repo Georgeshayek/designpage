@@ -31,7 +31,7 @@ const Items = () => {
 	];
     return(
         <>
-        <div className="grid lg:grid-cols-4 max-lg:grid-cols-2 max-lg:gap-1  max-lg:py-4 py-16">
+        <div className="grid lg:grid-cols-4 max-lg:grid-cols-2 max-lg:px-4 max-lg:py-4 py-16 max-lg:gap-2">
             {items.map((item, index)=><Item key={index} title={item.title} paragraph={item.paragraph} icon={item.icon}/>)}
         </div>
         </>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 const SwiperItem=(props)=>{
     return (
         
-        <div className="flex flex-col justify-between ease-in-out duration-300 group bg-[#ffffff] lg:p-4 max-lg:min-w-[120px] mr-4 max-lg:mt-4 min-h-[210px] max-h-[210px]  max-lg:min-h-[150px] rounded-xl  hover:bg-[#00cc99]">
+        <div className="flex flex-col justify-between ease-in-out duration-300 group bg-[#ffffff] p-4 max-lg:p-4 max-lg:min-w-[140px] max-lg:min-h-[160px] mr-4 max-lg:mt-4 min-h-[210px] max-h-[210px]  rounded-xl  hover:bg-[#00cc99]">
            <div>       
             {props.imageurl}
     

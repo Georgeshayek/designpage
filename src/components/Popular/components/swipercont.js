@@ -24,7 +24,7 @@ const SwiperCont=()=>{
 
     return(
         <Swiper
-      spaceBetween={50}
+      spaceBetween={isMaxLg?10:50}
       slidesPerView={isMaxLg?3:4}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}

@@ -51,7 +51,7 @@ const Feedback = () => {
       };
 	return (
 		<>
-				<div className=" grid grid-cols-2 max-lg:grid-cols-1  py-4">
+				<div className=" grid grid-cols-2 max-lg:grid-cols-1 max-lg:px-4 py-4">
 					<div className="col-span-1 max-lg:text-center">
 						<div>
 							<h1 className=" font-bold text-[30px] max-lg:text-[20px] ">
