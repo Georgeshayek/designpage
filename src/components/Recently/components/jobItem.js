@@ -16,7 +16,7 @@ const JobItem=(props)=>{
             <ObjectCont><FaMapMarkerAlt className="  w-4 h-4 max-lg:w-2 max-lg:h-2 mr-1 "  />{ props.location}</ObjectCont>
             <ObjectCont><TbBriefcase2 className=" w-4 h-4 max-lg:w-2 max-lg:h-2 mr-1 "/>{props.type}</ObjectCont>
        </div>
-       <button className="p-4 max-lg:p-1 max-lg:text-[12px] text-[#00cc99] bg-transparent flex items-center"> Apply Now <MdKeyboardArrowRight className=" w-4 h-4" /> </button>
+       <button className="p-4 max-lg:p-1 max-lg:text-[12px] text-[#00cc99] hover:bg-[#00cc99] hover:text-white bg-transparent rounded-xl flex items-center"> Apply Now <MdKeyboardArrowRight className=" w-4 h-4" /> </button>
     </div>
     )
 }

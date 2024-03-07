@@ -33,7 +33,7 @@ const SearchBar = () => {
 				</div>
 			
 			
-			<button className="rounded-xl  bg-[#00cc99] px-4 max-lg:px-2  text-white">
+			<button className="rounded-xl  bg-[#00cc99] px-4 max-lg:px-2  text-white  hover:text-[#00cc99] hover:bg-transparent hover:border hover:border-[#00cc99]">
 				Search
 			</button>
 		</div>

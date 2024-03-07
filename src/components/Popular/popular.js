@@ -8,7 +8,7 @@ const Popular = () => {
 				<TitleText title="Popular Job Categories" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae enim eget nisl bibendum condimentum pretium id elit. Nullam ac eros placerat velit faucibus tempor fermentum sit amet urna."/>
 				<SwiperCont/>
 				<div className="flex justify-center py-6">
-        <button className="py-3 px-12 max-lg:py-2 max-lg:px-8   border border-[#00cc99] text-[#00cc99] bg-transparent rounded">View More</button>
+        <button className="py-3 px-12 max-lg:py-2 max-lg:px-8  hover:bg-[#00cc99] hover:text-white  border border-[#00cc99] text-[#00cc99] bg-transparent rounded">View More</button>
         </div>
 				</div>
 			</div>
